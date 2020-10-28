@@ -1,0 +1,41 @@
+<div id="body-container">
+  <h1 id="body-title">你想對誰說幹話？</h1>
+
+  <form method="POST" action="/">
+    <div id="card-container">
+      <div class="card" style="width: 18rem;">
+        <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5668/angry-developer.jpg"
+          class="card-img-top" alt="...">
+        <div class="form-check">
+          <input id="engineer-checkbox" class="form-check-input" type="checkbox" name="engineer">
+          <label class="form-check-label" for="exampleRadios2">
+            工程師 </label>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5667/angry-designer.jpg"
+          class="card-img-top" alt="...">
+        <div class="form-check">
+          <input id="designer-checkbox" class="form-check-input" type="checkbox" name="designer">
+          <label class="form-check-label" for="exampleRadios2">
+            設計師 </label>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5669/angry-founder.jpg"
+          class="card-img-top" alt="...">
+        <div class="form-check">
+          <input id="entrepreneur-checkbox" class="form-check-input" type="checkbox" name="entrepreneur">
+          <label class="form-check-label">
+            創業家 </label>
+        </div>
+      </div>
+    </div>
+    <div class="trash-talk-set">
+      <button id="trash-talk" type="submit" class="btn btn-info col-2">產生幹話</button>
+      <textarea class="form-control col-10" aria-label="With textarea">{{sentence}}</textarea>
+    </div>
+  </form>
+</div>
